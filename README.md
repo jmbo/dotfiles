@@ -13,10 +13,12 @@ user@host:~$ explorer.exe .
 ```
 
 Alternatively, one can also navigate to the path: ```\\wsl$\<running_distro_name>\```
+
 Example : ```\\wsl$\Ubuntu-18.04\```
 
 #### .bashrc
 This is the standard .bashrc file with some customization at the bottom of the file. 
+
 Notable changes:
 * changes PS1 environment variable to that which is found in ~/scripts/PS1Setup.sh
 * configures SSH agent
