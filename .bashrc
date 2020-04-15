@@ -117,6 +117,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
+######################################################################
+#                            MY CUSTOMIZATIONS                       # 
+######################################################################
+
 # configure custom PS1
 . ~/scripts/PS1Setup.sh
 # turn off bells for 'man' pages which uses 'less'
