@@ -121,6 +121,9 @@ fi
 #                            MY CUSTOMIZATIONS                       # 
 ######################################################################
 
+# My aliases
+alias less='less -R' #supports colorized less
+
 # configure custom PS1
 . ~/scripts/PS1Setup.sh
 # turn off bells for 'man' pages which uses 'less'
