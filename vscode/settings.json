@@ -1,0 +1,65 @@
+{
+    "liveServer.settings.CustomBrowser": "firefox",
+    "liveServer.settings.fullReload": true,
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.profiles.windows": {
+
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "vim.foldfix": true,
+    "vim.normalModeKeyBindings": [
+
+    ],
+    "remote.SSH.remotePlatform": {
+        "192.168.17.128": "linux",
+        "kali": "linux",
+        "centos": "linux",
+        "raspberrypi": "linux"
+    },
+    "remote.SSH.defaultForwardedPorts": [
+
+    ],
+    // "editor.renameOnType": true,
+    "[cpp]" : {
+        "editor.rulers": [80]
+    },
+    "[c]" : {
+        "editor.rulers": [80]
+    },
+    "[python]": {
+        "editor.rulers": [80]
+    },
+    "[plaintext]": {
+    //    "editor.rulers": [80]
+    },
+    "files.associations": {
+        "CMake*": "makefile"
+    },
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.renderWhitespace": "all",
+    "editor.stickyTabStops": true,
+    "editor.detectIndentation": false,
+    "files.trimTrailingWhitespace": true,
+    "workbench.tree.expandMode": "doubleClick",
+    "explorer.autoReveal": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.watch.usePolling": true,
+    "latex-workshop.latex.autoBuild.interval": 5000,
+    "latex-workshop.latex.watch.interval": 2000,
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)"
+}

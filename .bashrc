@@ -123,7 +123,7 @@ fi
 
 # My aliases
 alias less='less -R' # supports colorized less
-alias ip='ip -c'     # colorizes the output of ip
+alias ip='ip -c'     # supports colarized ip listing
 
 # configure custom PS1
 . ~/scripts/PS1Setup.sh

@@ -1,0 +1,24 @@
+## Get extensions by running the following command on Powershell
+`code --list-extensions`
+
+cschlosser.doxdocgen
+jeff-hykin.better-cpp-syntax
+ms-python.python
+ms-python.vscode-pylance
+ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
+ms-vscode-remote.remote-containers
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
+ms-vscode-remote.remote-wsl
+ms-vscode-remote.vscode-remote-extensionpack
+ms-vscode.cmake-tools
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.cpptools-themes
+naumovs.color-highlight
+ritwickdey.LiveServer
+twxs.cmake
+VisualStudioExptTeam.vscodeintellicode
+vscodevim.vim

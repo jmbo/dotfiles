@@ -29,3 +29,13 @@ Notable changes:
 #### Other configuration files:
 * .tmux.conf
 * .vimrc
+* .gdbinit
+
+### VSCode Configuration/Settings
+* keybindings.json settings.json
+  * these files go on %APPDATA%\Code\User
+* extensions_list.txt
+
+### Windows Terminal
+* settings.json
+  * this file goes on echo ***\AppData\Local\Packages\Microsoft.WindowsTerminal_*\LocalState\

@@ -1,0 +1,118 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "alt+j",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+k",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+j",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+alt+k",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-extension.vim_ctrl+y",
+        "when": "editorTextFocus && vim.active && vim.use<C-y> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "-extension.vim_ctrl+c",
+        "when": "editorTextFocus && vim.active && vim.overrideCtrlC && vim.use<C-c> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "-extension.vim_ctrl+k",
+        "when": "editorTextFocus && vim.active && vim.use<C-k> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "-extension.vim_ctrl+h",
+        "when": "editorTextFocus && vim.active && vim.use<C-h> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-extension.vim_ctrl+a",
+        "when": "editorTextFocus && vim.active && vim.use<C-a> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+alt+x",
+        "command": "extension.vim_ctrl+x",
+        "when": "editorTextFocus && vim.active && vim.use<C-x> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+x",
+        "command": "-extension.vim_ctrl+x",
+        "when": "editorTextFocus && vim.active && vim.use<C-x> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "extension.vim_ctrl+c"
+    },
+    {
+        "key": "ctrl+alt+a",
+        "command": "extension.vim_ctrl+a"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "extension.vim_ctrl+h"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "extension.vim_ctrl+k"
+    },
+    {
+        "key": "ctrl+alt+y",
+        "command": "extension.vim_ctrl+y"
+    },
+    {
+        "key": "ctrl+alt+w",
+        "command": "extension.vim_ctrl+w",
+        "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-extension.vim_ctrl+w",
+        "when": "editorTextFocus && vim.active && vim.use<C-w> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "extension.vim_ctrl+f",
+        "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-extension.vim_ctrl+f",
+        "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "ctrl+alt+v",
+        "command": "extension.vim_ctrl+v",
+        "when": "editorTextFocus && vim.active && vim.use<C-v> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "-extension.vim_ctrl+v",
+        "when": "editorTextFocus && vim.active && vim.use<C-v> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "extension.vim_ctrl+j",
+        "when": "editorTextFocus && vim.active && vim.use<C-j> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-extension.vim_ctrl+j",
+        "when": "editorTextFocus && vim.active && vim.use<C-j> && !inDebugRepl"
+    }
+]
